@@ -1,0 +1,104 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<head>
+  <style>
+    body{
+      background-color: #1d1d1d;
+    }
+  </style>
+  <title>
+    UWScheduler
+  </title>
+</head>
+
+<!-- Toolbar -->
+<body>
+  
+  <div class="main">
+
+  
+  <p class="title">
+    Welcome to UWScheduler
+  </p>
+
+    <form action="somthing.php">
+      <li> 
+      <input type="text" name = "course1" placeholder="Course 1" (input)="course1 = ($event.target.value)">
+      </li>
+      <li>
+        <input type="text" name = "course2" placeholder="Course 2" (input)="course2 =($event.target.value)">
+      </li>
+      <li>
+        <input type="text" name = "course3" placeholder="Course 3" (input)="course3 =($event.target.value)">
+      </li> 
+      <li>
+        <input type="text" name = "course4" placeholder="Course 4" (input)="course4 =h($event.target.value)">
+      </li> 
+      <li>
+        <input type="text" name = "course5" placeholder="Course 5" (input)="course5 =($event.target.value)">
+      </li>
+    </form>
+
+  <div class="wrapper">
+    <button type="button" class="button" (click)="getCourseInfo()">Enter Courses</button>
+  </div>
+
+<div class="container">
+  <div class="card">
+  <h1>{{courseInfo[0]['course_name']}}</h1>
+  <p> {{courseInfo[0]['prof_name']}}</p>
+  <p> {{courseInfo[0]['time']}}</p>
+  <p> {{courseInfo[0]['section_number']}} </p>
+  </div>
+
+  <div class="card">
+    <h1>{{courseInfo[1]['course_name']}}</h1>
+    <p> {{courseInfo[1]['prof_name']}}</p>
+    <p> {{courseInfo[1]['time']}}</p>
+    <p> {{courseInfo[1]['section_number']}} </p>
+    </div>
+
+  <div class="card">
+    <h1>{{courseInfo[2]['course_name']}}</h1>
+    <p> {{courseInfo[2]['prof_name']}}</p>
+    <p> {{courseInfo[2]['time']}}</p>
+    <p> {{courseInfo[2]['section_number']}} </p>
+  </div> 
+
+  <div class="card">
+    <h1>{{courseInfo[3]['course_name']}}</h1>
+    <p> {{courseInfo[3]['prof_name']}}</p>
+    <p> {{courseInfo[3]['time']}}</p>
+    <p> {{courseInfo[3]['section_number']}} </p>
+    </div>
+
+  <div class="card">
+    <h1>{{courseInfo[4]['course_name']}}</h1>
+    <p> {{courseInfo[4]['prof_name']}}</p>
+    <p> {{courseInfo[4]['time']}}</p>
+    <p> {{courseInfo[4]['section_number']}} </p>
+  </div>
+</div>
+
+
+</div>
+
+  
+</body>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
